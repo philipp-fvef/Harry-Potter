@@ -20,7 +20,11 @@ class Testing {
                 System.out.println(Books[x]);
             }
         }
-
+        
+        else if(1 <= Input && Input <= 7) {
+            System.out.println("Book "+Input+": "+Books[Input]);
+        }
+        
         else {
             System.out.println("Book "+Input+": "+Books[Input]);
         }
